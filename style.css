@@ -363,6 +363,54 @@ button {
   font-size: 24px;
 }
 
+.section-5con {
+  padding: 80px;
+}
+.section-5 {
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  /* width: 100%; */
+  background-color: #033347;
+  padding: 25px;
+  justify-content: space-between;
+  min-height: 300px;
+}
+.left-5 {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.left-5 p {
+  font-size: 28px;
+}
+.left-5 h4 {
+  font-size: 50px;
+}
+.left-5 span {
+  font-size: 20px;
+}
+.right-5 {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.get {
+  padding: 10px 15px;
+  background-color: #2a8e9e;
+  border-radius: 15px;
+  white-space: nowrap;
+}
+.learn {
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid #d9d9d9;
+  white-space: nowrap;
+}
+
 @media (max-width: 1082px) {
   .hero-left h1 {
     font-size: 40px;
@@ -401,6 +449,24 @@ button {
   }
   .plans {
     text-align: left;
+  }
+  .section-5con {
+    padding: 80px 40px 80px 40px;
+  }
+  .section-5 {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    min-height: 200px;
+  }
+  .left-5 p {
+    font-size: 16px;
+  }
+  .left-5 h4 {
+    font-size: 30px;
+  }
+  .left-5 span {
+    font-size: 20px;
   }
 }
 
@@ -503,6 +569,18 @@ button {
     padding: 80px 20px 80px 20px;
   }
   .section-4 .our {
+    font-size: 16px;
+  }
+  .section-5con {
+    padding: 40px 20px 40px 20px;
+  }
+  .left-5 p {
+    font-size: 16px;
+  }
+  .left-5 h4 {
+    font-size: 24px;
+  }
+  .left-5 span {
     font-size: 16px;
   }
 }
