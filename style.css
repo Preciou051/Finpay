@@ -8,7 +8,11 @@ body {
   color: #180d39;
   font-family: "Roboto", sans-serif;
 }
-
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 header {
   display: flex;
   width: 100%;
@@ -157,6 +161,85 @@ button {
   gap: 15px;
 }
 
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 200px 40px 40px 40px;
+  max-width: 1245px;
+}
+.section-2 span {
+  color: #2a8e9e;
+}
+.section-2 p {
+  font-size: 50px;
+}
+.withdraw-k {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+.withdraw,
+.k {
+  width: 500px;
+  height: 300px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e9f3f4;
+  border-radius: 30px;
+}
+.k h1 {
+  font-size: 128px;
+  color: #2a8e9e;
+}
+.k p {
+  font-size: 34px;
+}
+.withdraw {
+  align-items: center;
+}
+.withdraw p {
+  font-size: 34px;
+}
+.transfer-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.volatility {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.volatility p {
+  font-size: 50px;
+}
+.volatility span {
+  font-size: 20px;
+  white-space: wrap;
+}
+.asset {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  background-color: #e9f3f4;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.asset img {
+  height: 300px;
+  width: 500px;
+}
+
 @media (max-width: 1082px) {
   .hero-left h1 {
     font-size: 40px;
@@ -185,7 +268,7 @@ button {
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 785px) {
   .phone-hide {
     display: none;
   }
@@ -210,6 +293,20 @@ button {
     align-items: self-start;
     text-align: left;
   }
+  .asset {
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    justify-content: center;
+  }
+  .asset img {
+    height: 300px;
+    width: 100%;
+  }
+  .section-2 {
+    padding: 300px 20px 40px 20px;
+    gap: 20px;
+  }
 }
 
 @media (max-width: 650px) {
@@ -226,5 +323,27 @@ button {
     left: auto;
     transform: none;
     bottom: auto;
+  }
+  .withdraw-k {
+    flex-direction: column;
+  }
+  .withdraw,
+  .k {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    gap: 10px;
+    justify-content: center;
+    border-radius: 30px;
+  }
+  .section-2 {
+    padding: 70px 20px 40px 20px;
+    gap: 20px;
+  }
+  .section-2 p {
+    font-size: 24px;
+  }
+  .k h1 {
+    font-size: 50px;
   }
 }
