@@ -166,7 +166,7 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 30px;
-  padding: 200px 40px 40px 40px;
+  padding: 200px 40px 80px 40px;
   max-width: 1245px;
 }
 .section-2 span {
@@ -372,7 +372,6 @@ button {
   display: flex;
   align-items: center;
   gap: 30px;
-  /* width: 100%; */
   background-color: #033347;
   padding: 25px;
   justify-content: space-between;
@@ -409,6 +408,42 @@ button {
   border-radius: 15px;
   border: 1px solid #d9d9d9;
   white-space: nowrap;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 20px 80px 20px 80px;
+  background-color: #f8f8f8;
+}
+footer span {
+  font-size: 12px;
+  color: #8a8a8a;
+}
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.vercon {
+  display: flex;
+  align-items: flex-start;
+  gap: 150px;
+}
+.vertical {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  gap: 3px;
+}
+.vertical p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.vertical span {
+  font-size: 14px;
+  color: #8a8a8a;
 }
 
 @media (max-width: 1082px) {
@@ -468,6 +503,11 @@ button {
   .left-5 span {
     font-size: 20px;
   }
+  .vercon {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+  }
 }
 
 @media (max-width: 785px) {
@@ -507,7 +547,7 @@ button {
     width: 100%;
   }
   .section-2 {
-    padding: 300px 20px 40px 20px;
+    padding: 300px 20px 80px 20px;
     gap: 20px;
   }
   .section-3 {
@@ -583,6 +623,19 @@ button {
   .left-5 span {
     font-size: 16px;
   }
+  footer {
+    padding: 20px 20px 20px 20px;
+  }
+  .footer {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .vercon {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 650px) {
@@ -613,7 +666,7 @@ button {
     border-radius: 30px;
   }
   .section-2 {
-    padding: 70px 20px 40px 20px;
+    padding: 70px 20px 80px 20px;
     gap: 20px;
   }
   .section-2 p {
